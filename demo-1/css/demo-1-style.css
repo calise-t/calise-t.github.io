@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.logo-img{
+    max-width: 15%;
+    height: auto;
+}
+
+body{
+    background-color: #ddd;
+    font-family: "Lora", serif;
+    margin: 0 auto;
+}
+
+.section-2{
+    background-color: #ccc;
+}
+
+.section-3{
+    background-color: #777;
+}
+
+.sub-box{
+    background-color: #ddd;
+    padding: 5%;
+}
+
+.btn{
+    background-color: #ddd;
+    border: 1px solid #777;
+    transition: all .2s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #777;
+    color: #ddd;
+}
+
+.form-control:focus{
+    border: 1px solid #777;
+    box-shadow: none;
+}
+
+.work-card{
+    background-color: #ccc;
+}
+
+footer{
+    background-color: #ccc;
+}
+
+.contact-box{
+    background-color: #ddd;
+    padding: 5%;
+}
+
+footer a{
+    color: #777;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.return-link{
+    color: #777;
+    text-decoration: none;
+}
+
+.return-link:hover{
+    color: black;
+    text-decoration: underline;
+}

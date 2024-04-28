@@ -2,6 +2,7 @@
 
 :root,[data-theme = "light"]{
     --bg: #D8D8D8;
+    --bg-layer: #D2D2D2;
     --primary: #5D5E61;
     --secondary: #222016;
     --img-filter: brightness(1);
@@ -9,6 +10,7 @@
 
 [data-theme = "dark"]{
     --bg: #565656;
+    --bg-layer: #373737;
     --primary: #D2D2D2;
     --secondary: #F9F9F9;
     --img-filter: brightness(.85) contrast(1.2);
@@ -68,8 +70,9 @@ nav a:active{
 }
 
 .project-card{
-    border: 1px solid var(--secondary);
     padding: 1%;
+    background-color: var(--bg-layer);
+    box-shadow: 3px 3px 5px #333;
 }
 
 .project-content{
@@ -87,4 +90,32 @@ nav a:active{
 
 .project-card img{
     filter: var(--img-filter);
+}
+
+.contact-box{
+    padding: 5%;
+}
+
+.contact-box h3{
+    font-weight: 200;
+    font-size: 100%;
+}
+
+.contact-box a{
+    color: var(--secondary);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-box a:hover{
+    color: var(--secondary);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.contact-info{
+    /* border: 1px solid var(--primary); */
+    background-color: var(--bg-layer);
+    padding: 10%;
+    box-shadow: 5px 5px 5px #333;
 }
