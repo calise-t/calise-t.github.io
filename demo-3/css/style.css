@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    background-color: #e5ded8;
+    color: #212427;
+}
+
+.hero-section{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/viviane-okubo-2ZnkIsutb4g-unsplash.jpg");
+    background-size: cover;
+    overflow: hidden;
+    color: #eee;
+}
+
+.hero-section img{
+    border-radius: 10px ;
+    box-shadow: 5px 5px 5px #555;
+}
+
+.about-section .card{
+    border: none;
+}
+
+.testimonials-box{
+    background-color: #e5ded8;
+}
+
+.testimonials-box span{
+    font-size: 120%;
+}
+
+.collection-area p{
+    text-align: center;
+}
+
+.work-section a{
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+}
+
+.work-section a:hover{
+    text-decoration: underline;
+    color: #222;
+}
+
+.work-section ul{
+    list-style: none;
+    padding: 3%;
+}
+
+footer{
+    background-color: #e5ded8;
+}
+
+footer a{
+    text-decoration: none;
+    color: #222;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.sub-btn{
+    background-color: #e5ded8;
+    color: #222;
+    border-radius: 5px;
+    transition: all .2s ease-in;
+}
+
+.sub-btn:hover{
+    background-color: #222;
+    color: #e5ded8;
+}
+
+.header-btn{
+    border-radius: 5px;
+    transition: all .2s ease-in;
+}

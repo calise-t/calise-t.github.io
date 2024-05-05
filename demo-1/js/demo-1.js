@@ -31,3 +31,4 @@ contactBtn.onclick = function(){
         contactMessage.innerHTML = `Hi, ${nameInput.value}, we will get back to your soon!`;
     }
 };  
+
